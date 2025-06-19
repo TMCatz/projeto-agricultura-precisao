@@ -94,25 +94,25 @@ Diagrama de fluxo simplificado da aplicação (em sintaxe Mermaid):
 ```mermaid
 graph TD
     A([Início]) --> B{Exibir Menu Principal};
-    B --> C{Usuário escolhe uma opção};
+    B --> C{Escolher uma opção};
 
-    C -- Opção 1: Umidade --> D[verificar_umidade_solo()];
-    D --> E[Exibir resultado];
+    C -- Umidade --> D[Verificar Umidade];
+    D --> E[Exibir Resultado];
     E --> B;
 
-    C -- Opção 2: Nutrientes --> F[analisar_nutrientes()];
-    F --> G[Exibir resultado];
+    C -- Nutrientes --> F[Analisar Nutrientes];
+    F --> G[Exibir Resultado];
     G --> B;
 
-    C -- Opção 3: Análise Completa --> H[verificar_umidade_solo()];
-    H --> I[analisar_nutrientes()];
-    I --> J[gerar_relatorio_simples()];
+    C -- Análise Completa --> H[Verificar Umidade];
+    H --> I[Analisar Nutrientes];
+    I --> J[Gerar Relatório];
     J --> B;
 
-    C -- Opção 4: Sair --> K[Exibir "Encerrando..."];
+    C -- Sair --> K[Encerrar];
     K --> L([Fim]);
 
-    C -- Outra tecla: Inválida --> M[Exibir "Opção inválida"];
+    C -- Inválida --> M[Exibir Mensagem de Erro];
     M --> B;
 ```
 
