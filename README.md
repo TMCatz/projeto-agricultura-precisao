@@ -115,9 +115,6 @@ graph TD
     C -- Inválida --> M[Exibir Mensagem de Erro];
     M --> B;
 ```
-
-> 💡 Se quiser gerar uma imagem do fluxograma, use um renderizador Mermaid online ou plugins no VS Code ou GitHub (algumas versões do GitHub já renderizam automaticamente).
-
 ---
 
 ## 👤 Autor
