@@ -1,15 +1,33 @@
+Projeto Agricultura de Precisão com Python
+Protótipo de um software de linha de comando para análise e manejo de solo, desenvolvido como uma ferramenta de apoio à decisão para a agricultura de precisão.
+
+Tabela de Conteúdos
 Sobre o Projeto
+Funcionalidades
+Tecnologias Utilizadas
+Como Executar o Projeto
+Estrutura do Código
+Fluxograma da Aplicação
+Autor
+Sobre o Projeto
+
 O AgroSolo Tech (nome conceitual do software) é um protótipo de software de terminal desenvolvido em Python, projetado para atuar como uma ferramenta de apoio à decisão para o manejo de solo na agricultura de precisão. Este projeto foi concebido a partir dos conceitos de automação e Agricultura 4.0, com base nos materiais de referência da Embrapa e do Sebrae.
 
 A principal finalidade do software é fornecer diagnósticos rápidos sobre a saúde do solo, analisando dois parâmetros críticos: umidade e níveis de nutrientes (especificamente Nitrogênio). Com base nesses diagnósticos, o sistema gera recomendações imediatas para ações corretivas, como irrigar ou aplicar fertilizantes, auxiliando o agricultor a tomar decisões baseadas em dados para maximizar a eficiência e a sustentabilidade da lavoura.
 
 Funcionalidades
 ✅ Menu Interativo: Interface de linha de comando clara que permite ao usuário navegar facilmente entre as opções.
+
 ✅ Análises Modulares: Possibilidade de executar análises de umidade e nutrientes de forma separada.
+
 ✅ Análise Completa e Integrada: Uma opção para rodar todas as análises em sequência e obter um panorama geral.
+
 ✅ Validação de Entrada: O sistema é robusto contra entradas inválidas (ex: texto em vez de números), solicitando ao usuário que corrija o dado sem travar a aplicação.
+
 ✅ Geração de Relatório: Apresenta um relatório consolidado com os status do solo e recomendações práticas.
+
 ✅ Simulação de Ações: Permite ao usuário simular o salvamento do relatório em um sistema local ou o envio para um gestor.
+
 Tecnologias Utilizadas
 Python 3
 Como Executar o Projeto
@@ -74,3 +92,4 @@ graph TD
 
 Autor
 Nathan Moratelli
+
